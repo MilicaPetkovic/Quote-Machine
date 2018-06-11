@@ -1,0 +1,68 @@
+body {
+	background-image: url("david.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 560px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'Risque', cursive;
+	font-size: 50px;
+}
+
+.bttn {
+	text-align: center;
+}
+
+#text {
+	text-align: center;
+	margin-top: 50px;
+	font-style: italic;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+#author {
+	text-align: right;
+	font-size: 20px;
+}
+
+
+
+a {
+	color: #242424;
+	text-decoration: none;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #fff;
+	font-family: 'Risque', cursive;
+}
+
+a:hover {
+	color: #242424;
+	text-decoration: none;
+	background-color: #82AF8B;
+}
+
+.fa-twitter {
+	color: #00aced;
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+	.bttn {
+		margin-bottom: 15px;
+	}
+
+	#author {
+		color: #fff;
+	}
+
+	#text {
+		color: #fff;
+	}
+}

@@ -1,5 +1,6 @@
 
 
+
 $(document).ready(function() {
 
 	var quote;
@@ -7,7 +8,7 @@ $(document).ready(function() {
 
 	function getNewQuote() {
 		$.ajax({
-			url: "http://api.forismatic.com/api/1.0/",
+			url: "https://api.forismatic.com/api/1.0/?",
 			jsonp: "jsonp",
 			dataType: "jsonp",
 			data: {
@@ -44,7 +45,6 @@ $(document).ready(function() {
 });
 
 
-
 // var quotes = [
 // 	"All that we see or seem is but a dream within a dream.-Edgar Allan Poe",
 // 	"Independence is happiness.-Susan B. Anthony",
@@ -69,4 +69,3 @@ $(document).ready(function() {
 // 	var randomQuote = Math.floor(Math.random() * (quotes.length));
 // 	document.getElementById("quote").innerHTML = quotes[randomQuote];
 // });
-
